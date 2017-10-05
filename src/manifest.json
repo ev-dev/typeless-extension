@@ -1,6 +1,13 @@
 {
-  "name": "Chrome Extension Webpack",
+  "name": "Typeless",
   "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["*"],
+      "css": [],
+      "js": ["parseAndListen.js"]
+    }
+  ],
   "background": {
     "page": "background.html"
   },

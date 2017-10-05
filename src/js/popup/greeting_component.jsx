@@ -1,13 +1,16 @@
-import React from "react";
-import icon from "../../img/icon-128.png"
+import React, { Component } from "react"
 
-export default class extends React.Component {
-  render () {
-    return (
-      <div>
-        <p>Hello, find me on src/js/popup/greeting_component.jsx</p>
-        <img src={icon} />
-      </div>
-    )
-  }
-};
+const PopupSettings = () => (
+  <div>
+    <h1>TypeLess</h1>
+    <p>Assistive Typing</p>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>Four</li>
+    </ul>
+  </div>
+)
+
+export default PopupSettings
